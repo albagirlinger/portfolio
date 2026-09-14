@@ -12,6 +12,8 @@ header {
     background-color: white;
     margin: 0;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 #initials {
