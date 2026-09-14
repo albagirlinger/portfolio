@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: pink;
+    background-color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,6 +14,7 @@ header {
     display: flex;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 #initials {
@@ -84,7 +85,53 @@ footer div {
 }
 
 
+#mainHome {
+    background-color: #FFD5E3;
+}
 
+
+#homePicture {
+    height: 224px;
+    width: 249px;
+    display: flex;
+    padding-right: 60px;
+}
+
+#homeTop {
+    position: relative;
+    height: 350px;
+}
+
+#homeBottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #570000;
+    padding-left: 26px;
+}
+
+
+#firstName {
+    font-family: "Londrina_Shadow";
+    font-size: 160px;
+    color: #570000;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    margin: 0;
+}
+
+#lastName {
+    font-family: "Londrina_Solid";
+    font-size: 160px;
+    color: #570000;
+    position: absolute;
+    top: 170px;
+    left: 488px;
+    margin: 0;
+}
 
 
 
