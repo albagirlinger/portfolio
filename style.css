@@ -1,6 +1,9 @@
 body {
     margin: 0;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -33,16 +36,72 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    flex: 1;
+}
+
+footer {
+    height: 242px;
+    background-color: white;
+    margin-top: auto;
+}
+
+footer h2 {
+    font-family: "Londrina_Solid";
+    font-size: 48px;
+    color: #570000;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-family: "Manrope";
+    font-size: 14px;
+}
+
+#mailButton {
+    background-color: #F1A9C1;
+    color: white;
+}
+
+#linkedinButton {
+    border: 2px solid #F1A9C1;
+    color: #F1A9C1;
+}
 
 
 
 
 
+
+
+nav a:visited,
+nav a:active,
+nav a:hover {
+    color: inherit;
+}
 
 
 @font-face {
     font-family: "Londrina_Shadow";
     src: url("fonts/Londrina_Shadow/LondrinaShadow-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Londrina_Solid";
+    src: url("fonts/Londrina_Solid/LondrinaSolid-Regular.ttf") format("truetype");
 }
 
 @font-face {
