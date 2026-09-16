@@ -35,6 +35,7 @@ nav {
     padding-top: 30px;
     display: flex;
     gap: 97px;
+    color: black;
 }
 
 nav a {
