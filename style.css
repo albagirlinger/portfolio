@@ -437,6 +437,112 @@ section .tags {
     border-radius: 20px;
 }
 
+#mainMalmo {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainMalmo h1 {
+    font-family: "Londrina_Solid";
+    font-size: 76px;
+    color: #570000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#mainMalmo>.tags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#malmoHero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+#mainMalmo h2 {
+    font-family: "Manrope";
+    font-size: 32px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+#mainMalmo section p {
+    font-family: "Manrope";
+    padding-left: 182px;
+    width: 550px;
+    letter-spacing: 0.8px;
+}
+
+#mainMalmo h3 {
+    font-family: "Manrope";
+    font-size: 20px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+#mainMalmo .wireframeGrid,
+#mainMalmo .resultsGrid {
+    width: 1200px;
+    height: auto;
+
+    background-color: #EABDCC80;
+
+    border-radius: 20px;
+
+    margin: auto;
+    padding: 23px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 50px;
+
+    box-sizing: border-box;
+}
+
+#mainMalmo .gridRowTop,
+#mainMalmo .gridRowBottom {
+
+    display: grid;
+    gap: 20px;
+    width: 100%;
+
+}
+
+#mainMalmo .gridRowTop {
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+}
+
+#mainMalmo .gridRowBottom {
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
+
+#mainMalmo .wireframeGrid img,
+#mainMalmo .resultsGrid img {
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+
+
+
+
 nav a:visited,
 nav a:active,
 nav a:hover {
