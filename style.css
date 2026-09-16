@@ -185,7 +185,10 @@ footer div {
     padding: 7px 16px;
     border-radius: 50px;
     font-family: "Manrope";
-    margin-top: 14px;
+}
+
+.projectInfo>.tags {
+    margin: 0;
 }
 
 .projectCard img {
@@ -205,6 +208,137 @@ footer div {
     display: block;
 }
 
+#mainSpotya {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#mainSpotya h1 {
+    font-family: "Londrina_Solid";
+    font-size: 76px;
+    color: #570000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.tagline {
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #570000;
+    text-align: center;
+}
+
+#mainSpotya>.tags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heroBox {
+    width: 783px;
+    height: 472px;
+    background-color: #F1A9C1B3;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 13px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+#spotyaHero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+#mainSpotya h2 {
+    font-family: "Manrope";
+    font-size: 32px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+#mainSpotya section p {
+    font-family: "Manrope";
+    padding-left: 182px;
+    width: 550px;
+    letter-spacing: 0.8px;
+}
+
+#mainSpotya h3 {
+    font-family: "Manrope";
+    font-size: 20px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+section .tags {
+    margin-left: 182px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 11px;
+}
+
+.wireframeGrid {
+    width: 1200px;
+    height: 300px;
+    background-color: #EABDCC80;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding: 23px;
+    gap: 125px;
+    margin-bottom: 50px;
+}
+
+.wireframeGrid img {
+    border-radius: 20px;
+}
+
+.resultsGrid {
+    width: 1200px;
+    height: 300px;
+    background-color: #EABDCC80;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding: 23px;
+    gap: 125px;
+    margin-bottom: 50px;
+}
+
+.resultsGrid img {
+    border-radius: 20px;
+}
+
+.projectNav {
+    font-family: "Manrope";
+    font-size: 16px;
+    color: #570000;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    gap: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    border-top: 2px solid #F1A9C1;
+}
+
+.projectNav a {
+    color: inherit;
+    text-decoration: none;
+}
 
 nav a:visited,
 nav a:active,
