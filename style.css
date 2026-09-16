@@ -340,6 +340,103 @@ section .tags {
     text-decoration: none;
 }
 
+
+
+#mainRavelinq {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#mainRavelinq h1 {
+    font-family: "Londrina_Solid";
+    font-size: 76px;
+    color: #570000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+#mainRavelinq>.tags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heroBox {
+    width: 783px;
+    height: 472px;
+    background-color: #F1A9C1B3;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 13px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+#ravelinqHero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+#mainRavelinq h2 {
+    font-family: "Manrope";
+    font-size: 32px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+#mainRavelinq section p {
+    font-family: "Manrope";
+    padding-left: 182px;
+    width: 550px;
+    letter-spacing: 0.8px;
+}
+
+#mainRavelinq h3 {
+    font-family: "Manrope";
+    font-size: 20px;
+    color: #570000;
+    font-weight: lighter;
+    padding-left: 182px;
+}
+
+#mainRavelinq .resultsGrid {
+    width: 1000px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#mainRavelinq .resultsGrid p {
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: lighter;
+    color: #570000;
+    margin: 0;
+    align-self: flex-start;
+    padding-left: 23px;
+}
+
+#mainRavelinq .resultsGrid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#mainRavelinq .resultsGrid video {
+    width: 100%;
+    border-radius: 20px;
+}
+
 nav a:visited,
 nav a:active,
 nav a:hover {
